@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+<listeners>
+<listener class-name="com.uiafw.cn.pn.helper.listener.RetryListener"></listener>
+<listener class-name="com.uiafw.cn.pn.helper.listener.ExtentListener"></listener>
+</listeners>
+<test name="VerifyLowestFirstPriceSortTest">
+    <classes>
+      <class name="com.uiafw.cn.pn.testscripts.VerifyLowestFirstPriceSortTest"/>
+    </classes>
+  </test>
+</suite>
